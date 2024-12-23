@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+ 
+  background-image: url("login.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+<div class="bg">
+   <center> <h3>LOGIN</h3><center>
+   <br>
+   <br>
+    <form action="jspfiles/get_login.jsp" method="post" align="center">
+        Username : <input type="text" name="uname" id="uname" required><br><br>
+        Password : <input type="password" name="pword" id="pword" required><br>
+        <input style="margin: 10px;" type="submit" value="SUBMIT">
+    </form>
+	</div>
+</body>
+</html>

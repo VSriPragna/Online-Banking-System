@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Money</title>
+</head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+ 
+  background-image: url("transaction.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+<div class="bg">
+   <center> <h3>Transfer Your Amount</h3></center>
+    <form action="jspfiles/transfer.jsp" method="post" align="center">
+        Send to : <input type="text" name="receiver" id="receiver" required><br><br>
+        Amount : <input type="number" name="amount" id="amount" required><br><br>
+		<h4>Mention Date:</h4>
+         Date: <input type="text" name="dd"  placeholder="yyyy/mm/dd"><br><br>
+		
+        <input type="submit" value="TRANSFER">
+    </form>
+	</div>
+</body>
+</html>

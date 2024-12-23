@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+</head>
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+ 
+  background-image: url("show.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+</style>
+<body>
+<div class="bg">
+   <center> <h3>Transaction History</h3><center>
+    <form action="jspfiles/received.jsp" align="center">
+        <input type="submit" value="Show Your Incoming Transactions">
+    </form>
+    <br>
+    <form action="jspfiles/sent.jsp">
+        <input type="submit" value="Show Your Outgoing Transactions">
+    </form>
+	<br>
+	<form action="jspfiles/withdraw_show.jsp">
+        <input type="submit" value="Show Your withdraw Transactions">
+    </form>
+	</div>
+</body>
+</html>

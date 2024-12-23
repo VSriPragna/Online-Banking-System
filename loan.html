@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan</title>
+</head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+ 
+  background-image: url("loan.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+<div class="bg">
+    <h3 align="center">Loan Request Form</h3>
+	 <h3 align="center">Note:You can only update your profile One..</h3>
+    <form action="jspfiles\loan.jsp">
+	<table align="center">
+         <tr>
+	      <td>Username  </td>
+		  <td><br></td>
+		<td><input type="text" name="uname" id="uname" required></td>
+	</tr>
+	   
+     <tr>
+	      <td>  E-Mail Address </td>
+		  <td><br></td>
+		<td><input type="email" name="email" id="email" required></td>
+	</tr>
+	   
+	   <tr>
+	      <td>Loan Type:</td>
+		  <td><br></td>
+		<td><input type="text" name="home" required></td>
+	</tr>
+	   
+	   <tr>
+	      <td>Purpose of your Loan:</td>
+		  <td><br></td>
+		<td><textarea name="purpose"></textarea></td>
+	</tr>
+        </table>
+		 <center><input type="submit" value="request"></center>
+    </form>
+	<br>
+	
+	<center><h3>Note:This request has send to admin.Admin look into this request and approve it.</h3></center>
+	</div>
+</body>
+</html>

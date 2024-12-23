@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="header">
+            <a href="#"><img src="https://pngimg.com/uploads/bank/bank_PNG7.png" width="4%" style="vertical-align:sub;" alt="">
+                <span style="color: black; font-family:Impact; font-size: 40px;">ONLINE BANK SERVICES</span>
+            </a>
+            <a style="float:right;" href="logout.jsp" target="main">LOGOUT</a>
+            <a style="float:right;" href="login.html" target="main">LOGIN</a>
+            <a style="float:right;" href="signup.html" target="main"><i class="fa fa-id-badge">SIGNUP</i></a>
+			 <a style="float:right;" href="admin/index.html" target="_blank">ADMIN LOGIN</a>
+			 <a style="float:right;" href="about.html" target="main"><i class="fa fa-info-circle">ABOUT US</i></a>
+        </nav>
+
+        <div class="contents">
+
+            <div class="menu" style="float:left;" height="100%">
+			<a class="menu-item" href="withdraw.html" target="main">WITHDRAW MONEY</a><br>
+                <a class="menu-item" href="deposit.html" target="main">DEPOSIT MONEY</a><br>
+                <a class="menu-item" href="transfer.html" target="main">SEND MONEY</a><br>
+                <a class="menu-item" href="transaction.html" target="main">TRANSACTION</a><br>
+                <a class="menu-item" href="jspfiles/get_balance.jsp" target="main">BALANCE</a><br>
+				<a class="menu-item" href="loan.html" target="main">LOAN REQUEST</a><br>
+				<a class="menu-item" href="jspfiles/result_loan.jsp" target="main">LOAN STATUS</a><br>
+				<a class="menu-item" href="update.html" target="main">UPDATE PROFILE</a><br>
+				<a class="menu-item" href="jspfiles/get_profile.jsp" target="main">VIEW PROFILE</a><br>
+				<a class="menu-item" href="delete_user.html" target="main">CLOSE ACCOUNT</a><br>
+				
+            </div>
+
+            <div>
+                <iframe name="main" src="jspfiles/get_balance.jsp" height="700" width="70%" frameborder="1"></iframe>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

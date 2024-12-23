@@ -1,0 +1,53 @@
+<html>
+<head>
+</head>
+<style>
+.ok{
+  display: block;
+  width: 20%;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ok:hover {
+  background-color: #ddd;
+  color: white;
+}
+</style>
+<body>
+
+<br>
+<br>
+<br>
+<h3 align="center">If you want to close your account ,Please fill the below details...</h3>
+<h3 align="center">FORM</h3>
+    <form action="jspfiles/delete_user.jsp" method="post">
+	<table align="center">
+
+	      
+	<tr>
+	      <td>  E-Mail Address </td>
+		  <td><br></td>
+		<td><input type="email" name="email" id="email" required></td>
+	</tr>
+	   
+        <tr>
+	      <td>   Password    </td>
+		  <td><br></td>
+		<td><input type="password" name="pword" id="pword" required></td>
+	</tr>
+	 
+       
+	    
+	   
+	</table>
+	<center><input style="margin: 10px;" type="submit" value="SUBMIT"></center>
+    </form>
+
+</body>
+</html>
